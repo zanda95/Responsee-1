@@ -52,7 +52,14 @@ class MyGrid(FloatLayout):
         plt.bar(pos,self.statlist,color='grey',edgecolor='black')
         plt.xticks(pos,angryornot)
         plt.title('Responsee',fontsize=20)
-        plt.legend()
+
+
+
+print("hello")
+print("hello")
+print("hello")
+print("hello")
+print("hello")
 
 
 
