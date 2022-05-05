@@ -1,0 +1,49 @@
+<Button>:
+
+    font_size: 40
+    color: 0,0,1,1
+    size_hint: 0.2,0.2
+
+<MyGrid>:
+
+    angry: angry
+    langry: langry
+    lhappy: lhappy
+    happy: happy
+    show_graph: show_graph
+    Button:
+        id: angry
+        pos_hint: {"x": 0.1, "top": 0.7}
+
+        text: ":("
+        on_press: root.knapp_tryck(self)
+
+    Button:
+        id: langry
+        pos_hint: {"x": 0.3, "top": 0.7}
+
+        text: ":/"
+        on_press: root.knapp_tryck(self)
+
+    Button:
+        id: lhappy
+        pos_hint: {"x": 0.5, "top": 0.7}
+
+        text: ":)"
+        on_press: root.knapp_tryck(self)
+
+    Button:
+        id: happy
+        pos_hint: {"x": 0.7, "top": 0.7}
+
+        text: ":>"
+        on_press: root.knapp_tryck(self)
+
+    Button:
+
+        id: show_graph
+
+        text: "Show graph"
+        on_press: root.knapp_tryck(self)
+
+
